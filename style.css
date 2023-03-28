@@ -112,7 +112,7 @@ form label {
 
 form select,
 form input {
-  justify-content: flex-end;
+  float: right;
   margin-bottom: 20px;
   width: 180px;
 }
@@ -184,15 +184,15 @@ footer p {
   }
   
   .alternate-background img{
-    width: 15%;
+    width: 20%;
   }
 
   .about-section{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
+
 
   .download-section{
     display: flex;
@@ -204,7 +204,9 @@ footer p {
     display: flex;
   }
 
- 
+ .about-text{
+  width: 50%;
+ }
 
   .row{
 flex-direction: row;
